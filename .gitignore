@@ -1,3 +1,15 @@
-./dataSet/test
-./dataSet/train
-./dataSet
+# virtual environment
+.venv/
+
+# datasets
+dataSet/
+
+# models
+*.keras
+
+# notebooks checkpoints
+.ipynb_checkpoints/
+
+# python cache
+__pycache__/
+*.pyc
