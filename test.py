@@ -5,8 +5,8 @@ from collections import Counter
 from tensorflow.keras.models import load_model
 
 # Load model
-# model = load_model("deep_emotion_model_finetuned.keras")
-model = load_model("mobilenet_emotion_model.keras")
+model = load_model("deep_emotion_model_finetuned.keras")
+# model = load_model("mobilenet_emotion_model.keras")
 
 
 labels = ['Angry','Disgust','Fear','Happy','Neutral','Sad','Surprise']
